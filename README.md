@@ -7,7 +7,7 @@
 - [Midterm Project](#MidtermProject)
 - [Final Project](#FinalProject)
 
-### Midterm Project
+## Midterm Project
 
 このプログラムの仕組みを説明する
 まずは手の検出は講義資料の応用課題を参考にした。
@@ -29,7 +29,7 @@
 
 
 
-### Final Project
+## Final Project
 このプログラムは、元となった顔画像を同時に現れる五枚の写真から番号（半角数字）で選び当てるモザイク顔当てゲームです。
 17枚なので5回チャレンジ出来ます。sentakuの値を変えると選択肢の個数が変化します。
 数字の入力はターミナル入力でお願いします。
