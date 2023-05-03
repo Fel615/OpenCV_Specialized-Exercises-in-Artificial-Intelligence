@@ -375,7 +375,7 @@ if __name__ == "__main__":
 
     res_max=5
 
-    #sentaku,que_retu,res_max=start(sentaku)
+    sentaku,que_retu,res_max=start(sentaku)
 
     
 
