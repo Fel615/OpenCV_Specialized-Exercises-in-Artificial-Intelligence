@@ -1,11 +1,14 @@
+<!-- START doctoc -->
+<!-- END doctoc -->
+
 # OpenCV_Specialized-Exercises-in-Artificial-Intelligence
 
 このリポジトリは、大学の授業で行った画像処理に関するプログラムを集めたものです。なお、参考画像は著作権の関係でカットされています。
 
 ## Table of Contents
 
-- [Midterm Project](#MidtermProject)
-- [Final Project](#FinalProject)
+- [Midterm Project](#Midterm-Project)
+- [Final Project](#Final-Project)
 
 ## Midterm Project
 
