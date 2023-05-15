@@ -9,6 +9,7 @@
 
 - [Midterm Project](#Midterm-Project)
 - [Final Project](#Final-Project)
+- [Cat ears plus Heart rotation](#Cat-ears-plus-Heart-rotation)
 
 ## Midterm Project
 
@@ -64,3 +65,22 @@
 - [CannyEdgeDetection](https://github.com/kotai2003/CannyEdgeDetection/tree/master/t_module)
 - [AI人物素材（ベータ版）](https://www.photo-ac.com/main/genface)
 - [【Python】OpenCV 画像を並べて表示する方法　サイズ違い対応版](https://small-onigiri.com/program-220626/)
+
+## Cat ears plus Heart rotation
+
+#### 頑張ったこと
+
+1. 回転させるために三角関数を使う必要があった。
+2. 回転するハートの個数を変化できるようにした。
+
+#### 回転する数式
+
+1. x座標の計算式
+    $$ x = round(cos(i) * w * come_and_go + (x + w/2)) $$
+これは、極座標系から直交座標系に変換する式です。ここで、iは角度、wは長さ、come_and_goは正または負の値であり、位置の移動を表します。xは、初期位置からの移動距離です。round()関数は四捨五入を行います。
+
+2. y座標の計算式
+    $$ y = round(sin(i) * h * come_and_go + (y + h/2)) $$
+これも極座標系から直交座標系に変換する式です。ここで、iは角度、hは長さ、come_and_goは正または負の値であり、位置の移動を表します。yは、初期位置からの移動距離です。round()関数は四捨五入を行います。
+
+なお、NumPyライブラリのnp.sin()とnp.cos()関数は、引数としてラジアン単位を受け取るので、np.radians()関数を使って角度をラジアンに変換しています。また、Pythonのround()関数は四捨五入を行いますが、ここでは数学用の式として整数部分のみを取得するために、floor()関数を使っています。
